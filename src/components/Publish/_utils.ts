@@ -97,7 +97,8 @@ export async function transformPublishFormToDdo(
     license: 'https://market.oceanprotocol.com/terms',
     links: linksTransformed,
     additionalInformation: {
-      termsAndConditions
+      termsAndConditions,
+      source: 'fox-lion'
     },
     ...(type === 'algorithm' &&
       dockerImage !== '' && {
