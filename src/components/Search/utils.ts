@@ -114,7 +114,7 @@ export function getSearchQuery(
         },
         {
           match: {
-            'metadata.additionalInformation.source': 'fox-lion'
+            'metadata.additionalInformation.source': 'hyperdatamarket'
           }
         }
       ]

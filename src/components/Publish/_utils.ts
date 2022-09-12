@@ -98,7 +98,7 @@ export async function transformPublishFormToDdo(
     links: linksTransformed,
     additionalInformation: {
       termsAndConditions,
-      source: 'fox-lion'
+      source: 'hyperdatamarket'
     },
     ...(type === 'algorithm' &&
       dockerImage !== '' && {
