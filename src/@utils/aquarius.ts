@@ -56,7 +56,7 @@ export function generateBaseQuery(
               must: [
                 {
                   match: {
-                    'metadata.additionalInformation.source': 'fox-lion'
+                    'metadata.additionalInformation.source': 'hyperdatamarket'
                   }
                 }
               ]
